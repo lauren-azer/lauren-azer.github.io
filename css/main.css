@@ -2946,3 +2946,13 @@ blockquote {
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+
+
+/*adding iframe hover tooltip*/
+
+.iframe-link iframe {
+    display: none;
+}
+.iframe-link:hover iframe {
+    display: block;
+}
